@@ -32,7 +32,7 @@ devtools::install_github("shffer/libminer")
 
 ## Example
 
-To get a count of installed packages in each of your libraries, optionally with the total sizea, use `lib_cummary()`.
+To get a count of installed packages in each of your libraries, optionally with the total sizea, use `lib_summary()`.
 
 ```{r example}
 library(libminer)

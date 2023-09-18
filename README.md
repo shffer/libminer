@@ -25,14 +25,14 @@ devtools::install_github("shffer/libminer")
 ## Example
 
 To get a count of installed packages in each of your libraries,
-optionally with the total sizea, use `lib_cummary()`.
+optionally with the total sizea, use `lib_summary()`.
 
 ``` r
 library(libminer)
 lib_summary()
 #>                                                                           Library
 #> 1                                              C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc5a12704f
+#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc11d31be3
 #>   n_packages
 #> 1        186
 #> 2          1
@@ -42,8 +42,8 @@ lib_summary()
 lib_summary(size = TRUE)
 #>                                                                           Library
 #> 1                                              C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc5a12704f
+#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc11d31be3
 #>   n_packages  lib_size
 #> 1        186 299612973
-#> 2          1     13240
+#> 2          1     13298
 ```
