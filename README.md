@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/shffer/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shffer/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your library setup. It
@@ -30,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                           Library
 #> 1                                              C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc20786dff
+#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc5a12704f
 #>   n_packages
 #> 1        186
 #> 2          1
@@ -40,8 +42,8 @@ lib_summary()
 lib_summary(size = TRUE)
 #>                                                                           Library
 #> 1                                              C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc20786dff
+#> 2 C:/Users/Shane Fernandez/AppData/Local/Temp/RtmpA9VSSg/temp_libpath50fc5a12704f
 #>   n_packages  lib_size
 #> 1        186 299612973
-#> 2          1     13239
+#> 2          1     13240
 ```
