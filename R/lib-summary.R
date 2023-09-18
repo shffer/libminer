@@ -30,7 +30,7 @@ lib_summary <- function(size = FALSE) {
 #' Calculate Sizes
 #'
 #' @param df a data frame of libraries
-#' @noRD
+#' @noRd
 #'
 #' @return a data frame with a lib_size column
 calculate_sizes <- function(df) {
