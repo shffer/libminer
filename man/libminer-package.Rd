@@ -12,6 +12,7 @@ Provides functions for learning code your R libraries, and the packages they con
 Useful links:
 \itemize{
   \item \url{https://github.com/shffer/libminer}
+  \item \url{https://shffer.github.io/libminer/}
   \item Report bugs at \url{https://github.com/shffer/libminer/issues}
 }
 
