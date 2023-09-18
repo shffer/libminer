@@ -4,14 +4,18 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(size = FALSE)
+}
+\arguments{
+\item{size}{A logical value indicating whether to calculate sizes. Defaul = \code{FALSE}}
 }
 \value{
-A \code{data.fame} containing the count of packages in each of the user's libraries
+A \code{data.fame} containing the count of packages in each of the user's libraries. If \code{sizes = TRUE}, a column of library sizes will be added.
 }
 \description{
 Provides a brief summary of the package libraries on your machine
 }
 \examples{
 lib_summary()
+lib_summary(size = TRUE)
 }
